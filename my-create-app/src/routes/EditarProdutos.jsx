@@ -1,5 +1,5 @@
 import { useNavigate, useParams } from "react-router-dom";
-import { ListaProdutos } from "../Components/ListaProdutos";
+import { ListaProdutos } from "../Componentes/ListaProdutos";
 import { useState } from "react";
 
 export default function EditarProdutos() {
