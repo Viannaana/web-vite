@@ -1,5 +1,4 @@
 {
-  "homepage": "https://github.com/Viannaana/web-vite",
   "name": "web-cp2",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +8,6 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "churros": "json-server --watch db.json --port 5000"
   },
   "dependencies": {
